@@ -1,0 +1,54 @@
+#flag-image {
+    width: 450px;
+    height: 300px;  
+    border: 1px solid gray;
+    padding: 20px;
+  }
+
+  .letter-box {
+      border: 1px solid gray;
+      padding: 10px; 
+      margin-right: 4px;
+      text-transform: uppercase;
+      font-weight: bold;
+      text-align: center;
+      background-size: 18px 1px;
+      height: 20px;
+      width: 24px;
+      font: 12px monaco, monospace; 
+    }
+
+  #message {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  .center {
+      margin: auto;
+      width: 50%;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .imageCenter {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    .container{
+      overflow: visible;
+      white-space: nowrap;
+    }
+
+    .space {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+    }
+
+  @keyframes flip {
+  0% { transform: rotateX(0); }
+  100% { transform: rotateX(360deg); }
+}
